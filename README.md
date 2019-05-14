@@ -2,7 +2,7 @@
 
 ## What is the purpose of this repository?
 
-In this repository I am sharing [my recreation](https://patriciarrsilva.github.io/Creative-web-page/) of the Creative web page.
+In this repository I am sharing [my recreation](https://patriciarrsilva.github.io/Creative-web-page/) of the [Creative web page](https://github.com/patriciarrsilva/Creative-web-page/blob/master/Template.png).
 
 ## Quickstart
 
