@@ -1,0 +1,26 @@
+.clients-section {
+  width: $max-width;
+  margin: 120px auto 90px;
+
+  &__title {
+    font-size: 72px;
+    margin-bottom: 60px;
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__image {
+    opacity: 0.4;
+    padding: 15px;
+    height: 100%;
+
+    &:hover {
+      opacity: 1;
+      transition: all 0.4s;
+    }
+  }
+}

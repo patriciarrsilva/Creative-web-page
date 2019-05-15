@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Muli");
 html {
   line-height: 1.15;
   /* 1 */
@@ -427,6 +428,10 @@ h6 {
   padding-right: 0;
 }
 
+.left1 {
+  left: 8.3333333333%;
+}
+
 .col2 {
   width: 16.6666666667%;
   padding-left: 15px;
@@ -435,6 +440,10 @@ h6 {
 .col2.no-gutter {
   padding-left: 0;
   padding-right: 0;
+}
+
+.left2 {
+  left: 16.6666666667%;
 }
 
 .col3 {
@@ -447,6 +456,10 @@ h6 {
   padding-right: 0;
 }
 
+.left3 {
+  left: 25%;
+}
+
 .col4 {
   width: 33.3333333333%;
   padding-left: 15px;
@@ -455,6 +468,10 @@ h6 {
 .col4.no-gutter {
   padding-left: 0;
   padding-right: 0;
+}
+
+.left4 {
+  left: 33.3333333333%;
 }
 
 .col5 {
@@ -467,6 +484,10 @@ h6 {
   padding-right: 0;
 }
 
+.left5 {
+  left: 41.6666666667%;
+}
+
 .col6 {
   width: 50%;
   padding-left: 15px;
@@ -475,6 +496,10 @@ h6 {
 .col6.no-gutter {
   padding-left: 0;
   padding-right: 0;
+}
+
+.left6 {
+  left: 50%;
 }
 
 .col7 {
@@ -487,6 +512,10 @@ h6 {
   padding-right: 0;
 }
 
+.left7 {
+  left: 58.3333333333%;
+}
+
 .col8 {
   width: 66.6666666667%;
   padding-left: 15px;
@@ -495,6 +524,10 @@ h6 {
 .col8.no-gutter {
   padding-left: 0;
   padding-right: 0;
+}
+
+.left8 {
+  left: 66.6666666667%;
 }
 
 .col9 {
@@ -507,6 +540,10 @@ h6 {
   padding-right: 0;
 }
 
+.left9 {
+  left: 75%;
+}
+
 .col10 {
   width: 83.3333333333%;
   padding-left: 15px;
@@ -515,6 +552,10 @@ h6 {
 .col10.no-gutter {
   padding-left: 0;
   padding-right: 0;
+}
+
+.left10 {
+  left: 83.3333333333%;
 }
 
 .col11 {
@@ -527,6 +568,10 @@ h6 {
   padding-right: 0;
 }
 
+.left11 {
+  left: 91.6666666667%;
+}
+
 .col12 {
   width: 100%;
   padding-left: 15px;
@@ -535,6 +580,10 @@ h6 {
 .col12.no-gutter {
   padding-left: 0;
   padding-right: 0;
+}
+
+.left12 {
+  left: 100%;
 }
 
 .navigation {
@@ -552,6 +601,8 @@ h6 {
   font-size: 30px;
   padding-top: 45px;
   margin: 0;
+  text-decoration: none;
+  color: black;
 }
 
 .icon-hamburger {
@@ -582,6 +633,160 @@ h6 {
 .header__subtitle {
   font-size: 60px;
   margin: 0;
+}
+
+.about-section {
+  width: 1200px;
+  margin: 120px auto 90px;
+}
+.about-section__paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #E7194F;
+}
+.about-section__paragraph--blue {
+  color: #00BEC5;
+}
+.about-section__image-right {
+  float: right;
+}
+.about-section__image-bottom {
+  position: relative;
+  z-index: -1;
+}
+.about-section__title {
+  font-size: 72px;
+  margin: 120px 0 90px;
+}
+
+.services-article__container {
+  text-align: center;
+  display: flex;
+}
+.services-article__icon {
+  font-size: 64px;
+  color: #00BEC5;
+}
+.services-article__title {
+  font-size: 24px;
+  margin: 30px 0;
+}
+.services-article__paragraph {
+  font-size: 18px;
+  color: #777;
+}
+
+.images-section {
+  display: flex;
+}
+.images-section__column {
+  flex: 1 33%;
+}
+.images-section_img {
+  width: 100%;
+  display: block;
+}
+
+.clients-section {
+  width: 1200px;
+  margin: 120px auto 90px;
+}
+.clients-section__title {
+  font-size: 72px;
+  margin-bottom: 60px;
+}
+.clients-section__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.clients-section__image {
+  opacity: 0.4;
+  padding: 15px;
+  height: 100%;
+}
+.clients-section__image:hover {
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+.contacts-section {
+  background-color: #F3F3F3;
+  position: relative;
+}
+.contacts-section__form-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.contacts-section__title {
+  font-size: 72px;
+  padding-top: 90px;
+  margin: 0;
+}
+.contacts-section__paragraph {
+  font-size: 18px;
+  margin: 45px 0;
+  color: #777;
+}
+.contacts-section__image {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.input {
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  border: 2px solid #CCC;
+  padding: 0 25px;
+  margin-bottom: 20px;
+}
+.input--big {
+  padding: 25px;
+  height: 192px;
+}
+.input:focus {
+  border: 2px solid #E7194F;
+}
+
+.button {
+  height: 64px;
+  font-size: 14px;
+  background-color: #E7194F;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #00BEC5;
+  transition: all 0.4s;
+}
+
+.footer-section {
+  background-image: url(../img/bgfooter.jpg);
+  text-align: center;
+}
+.footer-section__title {
+  font-size: 72px;
+  color: white;
+  margin: 0;
+  padding-top: 60px;
+}
+.footer-section__paragraph {
+  color: #777;
+  margin: 30px 0;
+}
+.footer-section__icons {
+  padding-bottom: 60px;
+}
+.footer-section__icon {
+  font-size: 32px;
+  color: #00BEC5;
+  padding: 0 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

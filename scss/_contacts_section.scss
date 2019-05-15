@@ -1,0 +1,62 @@
+.contacts-section {
+  background-color: $grey-lighter;
+  position: relative;
+
+  &__form-container {
+    width: $max-width;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 72px;
+    padding-top: 90px;
+    margin: 0;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    margin: 45px 0;
+    color: $grey-darker;
+  }
+
+  &__image {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.input {
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  border: 2px solid $grey-medium;
+  padding: 0 25px;
+  margin-bottom: 20px;
+
+  &--big {
+    padding: 25px;
+    height: 192px;
+  }
+
+  &:focus {
+    border: 2px solid $pink;
+  }
+}
+
+.button {
+  height: 64px;
+  font-size: 14px;
+  background-color: $pink;
+  color: $white;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $blue;
+    transition: all 0.4s;
+  }
+}

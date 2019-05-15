@@ -1,0 +1,52 @@
+.about-section {
+  width: $max-width;
+  margin: 120px auto 90px;
+
+  &__paragraph {
+    font-family: $heading-font-family;
+    font-size: 36px;
+    color: $pink;
+
+    &--blue {
+      color: $blue;
+    }
+  }
+
+  &__image {
+    &-right {
+      float: right;
+    }
+
+    &-bottom {
+      position: relative;
+      z-index: -1;
+    }
+  }
+
+  &__title {
+    font-size: 72px;
+    margin: 120px 0 90px;
+  }
+}
+
+.services-article {
+  &__container {
+    text-align: center;
+    display: flex;
+  }
+
+  &__icon {
+    font-size: 64px;
+    color: $blue;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin: 30px 0;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    color: $grey-darker;
+  }
+}

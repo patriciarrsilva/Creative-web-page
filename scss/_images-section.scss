@@ -1,0 +1,12 @@
+.images-section {
+  display: flex;
+
+  &__column {
+    flex: 1 33%;
+  }
+
+  &_img {
+    width: 100%;
+    display: block;
+  }
+}

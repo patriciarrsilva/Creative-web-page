@@ -9,18 +9,22 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $heading-font-family;
+  font-family: $heading-font-family;
 }
 
 @for $i from 1 through $grid-columns {
-    .col#{$i} {
-        width: percentage($i / $grid-columns);
-        padding-left: $grid-gutter / 2;
-        padding-right:  $grid-gutter / 2;
+  .col#{$i} {
+    width: percentage($i / $grid-columns);
+    padding-left: $grid-gutter / 2;
+    padding-right: $grid-gutter / 2;
 
-        &.no-gutter {
-            padding-left: 0;
-            padding-right: 0;
-        }
+    &.no-gutter {
+      padding-left: 0;
+      padding-right: 0;
     }
+  }
+
+  .left#{$i} {
+    left: percentage($i / $grid-columns);
+  }
 }
