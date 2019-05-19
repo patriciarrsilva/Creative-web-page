@@ -8,7 +8,7 @@ In this repository I am sharing [my recreation](https://patriciarrsilva.github.i
 
 To see it:
 
-- click [here](https://patriciarrsilva.github.io/Natours-web-page/)
+- click [here](https://patriciarrsilva.github.io/Creative-web-page/)
 
 or
 
